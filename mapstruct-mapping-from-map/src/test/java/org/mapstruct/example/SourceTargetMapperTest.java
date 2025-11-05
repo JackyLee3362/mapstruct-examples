@@ -22,9 +22,6 @@ import static org.junit.Assert.assertNull;
  */
 public class SourceTargetMapperTest {
 
-    public SourceTargetMapperTest() {
-    }
-
     /**
      * Test of toTarget method, of class SourceTargetMapper.
      */

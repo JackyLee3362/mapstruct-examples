@@ -27,7 +27,7 @@ public class EmployeeMapperTest {
 
         EmployeeDto teamLeader = employeeDto( "Group Leader", null );
 
-        EmployeeDto member1 = employeeDto( "Member2", teamLeader );
+        EmployeeDto member1 = employeeDto( "Member1", teamLeader );
         EmployeeDto member2 = employeeDto( "Member2", teamLeader );
         teamLeader.setTeam( Arrays.asList( member1, member2 ) );
 
@@ -52,7 +52,7 @@ public class EmployeeMapperTest {
 
         Employee teamLeader = employee( "Group Leader", null );
 
-        Employee member1 = employee( "Member2", teamLeader );
+        Employee member1 = employee( "Member1", teamLeader );
         Employee member2 = employee( "Member2", teamLeader );
         teamLeader.setTeam( Arrays.asList( member1, member2 ) );
 

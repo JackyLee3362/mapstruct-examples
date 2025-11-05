@@ -5,10 +5,7 @@
  */
 package org.mapstruct.example.dto;
 
-import java.math.BigDecimal;
-
 /**
- *
  * @author Sjaak Derksen
  */
 public class MammalDto {

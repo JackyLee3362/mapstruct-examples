@@ -5,7 +5,6 @@
  */
 package org.mapstruct.example.mapper;
 
-import java.lang.annotation.Target;
 import java.util.Map;
 
 import org.mapstruct.AfterMapping;

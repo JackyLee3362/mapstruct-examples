@@ -5,7 +5,6 @@
  */
 package org.mapstruct.jpa;
 
-import java.util.Arrays;
 import org.junit.Test;
 import static org.assertj.core.api.Assertions.assertThat;
 
